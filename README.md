@@ -2,7 +2,7 @@
 The goal of this application is pretty clear: we have to detect if the person in front of the cameras wears headphones and control the chosen media player depending on the presence/absence of the person and of his/her headphones.The goal, thus, can be divided in two different parts. The computer vision part dedicated to image processing and understanding, and the media player part dedicated to the control of the media player given the output of the computer vision analysis.
 
 ## Software Requirement
-1.Python/n
+1.Python
 2.Open CV
 3.Tkinter
 4.Casscade classifier
