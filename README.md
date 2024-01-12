@@ -24,7 +24,9 @@ We have several example of our project on these following website.
 <img width="572" alt="image" src="https://github.com/jayneeshk/AI-based-video-player/assets/112818987/e349c2f1-17d0-424a-b2c1-66b5b1fb52c2">
 
 ## Result
+### Step-1:
 ![image](https://github.com/jayneeshk/AI-based-video-player/assets/112818987/4ba6f9be-f9af-4e36-a4b0-2c6ed7f3655b)
+### Step-2:
 ![image](https://github.com/jayneeshk/AI-based-video-player/assets/112818987/9b4bd315-5b6b-42f5-b756-16f3825c866b)
 
 
