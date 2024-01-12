@@ -1,4 +1,5 @@
-import cv2
+# Import some necessary library.
+import cv2 
 import vlc
 import tkinter as tk
 from tkinter import filedialog
@@ -9,9 +10,13 @@ root.withdraw()
 file_path = filedialog.askopenfilename()
 cam=cv2.VideoCapture(0)
 m=vlc.MediaPlayer(rf'{file_path}')
+# When you intend to execute a specific video, you should opt for this method.
 #m=vlc.MediaPlayer(r'C:\Users\himan\OneDrive\Desktop\mini-project\New folder (2)\file.mp4')
 
+# This method involves specifying a directory location, from which you are provided with the option to select any video from the existing ones.
 fd=cv2.CascadeClassifier(r'C:\Users\himan\AppData\Local\Programs\Python\Python310\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml')
+
+# The primary execution of the program begins at this point.
 flag=1 
 while True:
     r,i=cam.read()
