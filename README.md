@@ -1,18 +1,18 @@
 # Face detecting video player
-The goal of this application is pretty clear: we have to detect if the person in front of the camera wears headphones and control the chosen media player depending on the presence/absence of the person and of his/her headphones.The goal, thus, can be divided in two different parts. The computer vision part dedicated to image processing and understanding, and the media player part dedicated to the control of the media player given the output of the computer vision analysis.
+This application is designed with a singular purpose: to initiate video playback upon detecting an individual in the camera's proximity, and subsequently pause playback in the absence of any individual. Remarkably, the application incorporates an intelligent feature wherein the audio volume of the video dynamically adjusts based on the person's distance from the camera. As the individual approaches the camera, the audio gradually decreases to maintain a considerate environment. Conversely, when the person moves away, the application intelligently increases the video's audio volume. This nuanced interplay between video initiation, pause, and adaptive audio modulation exemplifies the application's commitment to a sophisticated and user-centric multimedia experience.
 
 ## Software Requirement
-1.Python
-2.Open CV
-3.Tkinter
-4.Casscade classifier
-4.V.L.C Media player
+1. Python
+2. Open CV
+3. Tkinter
+4. Casscade classifier
+4. V.L.C Media player
 
 ## Installation
 Our project is totally based on PYTHON interface,and you can use as little as Tkinter as you need:
-1.Install V.L.C media player
-2.Install PYTHON (3.11 64-bit)
-3.Run the code in your system which is given below.
+1. Install V.L.C media player
+2. Install PYTHON (3.11 64-bit)
+3. Run the code in your system which is given below.
 
 ## Examples
 We have several example of our project on these following website.
@@ -29,11 +29,5 @@ We have several example of our project on these following website.
 ### Step-2:
 ![image](https://github.com/jayneeshk/AI-based-video-player/assets/112818987/9b4bd315-5b6b-42f5-b756-16f3825c866b)
 
-
 ## Support
 For support, email: jayneeshprajapati@gmail.com.
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
